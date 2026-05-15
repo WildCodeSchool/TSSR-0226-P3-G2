@@ -9,7 +9,7 @@ Arborescence mis en place sur github - ok
 Définition des types de documents attendue:   
 
 
-- DAT : Documentation d'Architechture Technique, Vue d'ensemle du Propjet, pas de technique > 'README'  
-- HLD : High Level Design, Infra pensée globalement, sans détails de config                 > 'architechture'  
+- DAT : Documentation d'Architecture Technique, Vue d'ensemle du Propjet, pas de technique > 'README'  
+- HLD : High Level Design, Infra pensée globalement, sans détails de config                 > 'architecture'  
 - LLD : Low Level Design, Détails techniques de chaque composant                            > 'components'  
 - DEX : Documentation d'Exploitation, utilisation quotidienne de l'infrastructure           > 'operation'   
