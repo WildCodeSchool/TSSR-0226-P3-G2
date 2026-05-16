@@ -23,7 +23,7 @@ Il est donc impératif de procéder au déploiement d'une nouvelle infrastructur
 
 Mettre en place une nouvelle infrastructure en suivant une méthodologie agile et en respectant les bonnes pratiques d’architecture, de sécurité et de documentation. 
 
-## II. Types de documentations 
+# II. Types de documentations 
   
 Définition des types de documents attendue:   
 
@@ -32,7 +32,7 @@ Définition des types de documents attendue:
 - LLD : Low Level Design, Détails techniques de chaque composant                            > 'components'  
 - DEX : Documentation d'Exploitation, utilisation quotidienne de l'infrastructure           > 'operation'   
 
-## III. **Le groupe de projet :**  
+# III. **Le groupe de projet :**  
 
 En tant que prestataire mandaté par EcoTech Solutions, notre équipe de 3 personnes à pour mission de déployer une nouvelle infrastructure réseau. Les rôles de Product Owner, Scrum Master et Technicien sont tournants à chaque sprint.
 
