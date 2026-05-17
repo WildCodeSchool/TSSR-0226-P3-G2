@@ -57,33 +57,3 @@ DSI : Dominique Colleville
 | Sprint 10 |                    |                   |            |           |
 | Sprint 11 |                    |                   |            |           |
 
-# IIII. Listing matériel - Équipements réseau (Packet Tracer)
-|#| Nom PT | Modèle Packet Tracer | Rôle | IP de gestion |
-|---|-------|----------------------|-----|---------------|
-| 1 | FW-DSI-001 | Routeur Cisco 4331 | Simulation pfSense - NAT, filtrage, routage WAN |  |
-| 2 | SW-L3-DSI-001 | Switch Cisco 3650-24PS | Routing inter-VLAN, trunk vers L2 et zone serveurs | |
-| 3 | SW-L2-DSI-001 | Switch Cisco 2960-24TT | Accès utilisateurs, ports access par VLAN ||
-
-### Postes clients (1 par VLAN)
-
-| Nom PT | VLAN | IP | Rôle |
-|--------|------|----|------|
-| PC-DIR-001 | 10 | 172.16.10.10 | VLAN Direction |
-| PC-DSI-001 | 20 | 172.16.20.10 | VLAN DSI |
-| PC-COM-001 | 30 | 172.16.30.10 | VLAN Communication |
-| PC-DEV-001 | 40 | 172.16.40.10 | VLAN Développement |
-| PC-DRH-001 | 50 | 172.16.50.10 | VLAN RH |
-| PC-FIN-001 | 60 | 172.16.60.10 | VLAN Finance |
-| PC-VTE-001 | 70 | 172.16.70.10 | VLAN Commercial |
-
----
-## Listing matériel — Machines virtuelles (VMs)
-
-### Serveurs
-
-| # | Nom VM | Fonction / Rôle | OS | CPU | RAM | Disque | IP |
-|---|--------|----------------|----|------|-----|--------|----|
-| 1 | VM-DSI-DC1 | Contrôleur de domaine principal - AD DS, DNS, DHCP, NPS | Windows Server 2022 | 2 | 4 Go | 60 Go | 172.16.80.10 |
-| 2 | VM-DSI-DC2 | Contrôleur de domaine secondaire - AD DS, DNS (redondance) | Windows Server 2022 | 2 | 4 Go | 60 Go | 172.16.80.11 |
-| 3 | VM-DSI-FICHIERS | Serveur de fichiers - Partages réseau DFS | Windows Server 2022 | 2 | 4 Go | 100 Go | 172.16.80.20 |
-| 4 | VM-DSI-BAREOS | Serveur de sauvegarde - BareOS (backup unidirectionnel) | Debian 12 | 1 | 2 Go | 200 Go | 172.16.90.10 |
