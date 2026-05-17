@@ -36,7 +36,7 @@ Définition des types de documents attendue:
 
 **Société BCD :**   
 
-![Logo EcoTech Solutions](assets/logobettercalldom.png)
+![Logo EcoTech Solutions](assets/logobcdv5.png)
 
     
 En tant que prestataire mandaté par EcoTech Solutions, notre équipe de 3 personnes à pour mission de déployer une nouvelle infrastructure réseau. Les rôles de Product Owner, Scrum Master et Technicien sont tournants à chaque sprint.
