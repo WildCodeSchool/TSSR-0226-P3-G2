@@ -2,10 +2,9 @@
 
 # I. Nom de domaine
 Nom FQDN : ecotech.lan
-II. Unités d'Organisation (OU)
-Structure hiérarchique par type d'objet puis par département.
 
 # II. Unités d'Organisation (OU)
+**Structure hiérarchique par type d'objet puis par département.**
 
 ## Racine : ecotech.lan/EcoTech
 
