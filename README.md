@@ -34,9 +34,9 @@ Définition des types de documents attendue:
 
 # III. **Le groupe de projet :**  
 
-**Société Redistuo :**   
+**Société BCD :**   
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/bde7b309-ce17-4d0e-8c66-030ae115a963" />  
+![Logo EcoTech Solutions](assets/logobettercalldom.png)
 
     
 En tant que prestataire mandaté par EcoTech Solutions, notre équipe de 3 personnes à pour mission de déployer une nouvelle infrastructure réseau. Les rôles de Product Owner, Scrum Master et Technicien sont tournants à chaque sprint.
