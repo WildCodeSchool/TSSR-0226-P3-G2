@@ -103,17 +103,18 @@ VM-BDX-FIC-01
 Numérotation sur 3 chiffres : 001, 002, 003...
 
 # V. Utilisateurs
+
 Convention : prenom.nom
 Exemples :
 
-marie.dupont
-jean.martin
-sophie.bernard
+grégory.datis
+zinédine.zishan
+micheal.scott
 
 Gestion des homonymes : ajout d'un chiffre en suffixe.
 
-marie.dupont
-marie.dupont2
+dunder.milfin
+dunder.milfin2
 
 Comptes administrateurs : adm.[prenom]
 
