@@ -31,7 +31,7 @@
 | VLAN 70 | Service Commercial | 172.16.70.0 | 172.16.70.1 | .2 - .254 | /24 |
 | VLAN 80 | Serveurs | 172.16.80.0 | 172.16.80.1 | .2 - .254 | /24 |
 | VLAN 90 | Backup (non routé) | 172.16.90.0 | 172.16.90.1 | .2 - .254 | /24 |
-| VLAN 99 | Transit pfSense - Switch L3 | 172.16.99.0 | 172.16.99.1 | deux hôtes | /30 |
+| VLAN 99 | Transit pfSense - Switch L3 | 172.16.99.0 | 172.16.99.1 | .1 - .2 | /30 |
 | VLAN 100 | Périphériques | 172.16.100.0/24 | 172.16.100.1 | .2 - .254 | /24 |
 
 ---
@@ -45,13 +45,24 @@
 | DC1 | 172.16.80.10 | AD DS principal, DNS, DHCP, NPS/RADIUS |
 | DC2 | 172.16.80.11 | AD DS secondaire, DNS secondaire |
 | Serveur de fichiers | 172.16.80.20 | Partages réseau par département |
-| pfSense (LAN) | 172.16.80.1 | Firewall, routeur, Suricata IDS/IPS |
 
 ### VLAN 90 - Backup:
 
 | Serveur | IP fixe | Rôles |
 |---|---|---|
 | Bareos | 172.16.90.10 | Sauvegarde centralisée (non routé) |
+
+
+### VLAN 99 - Transit pfSense - Switch L3 :
+
+| Équipement | IP fixe | Rôle |
+|---|---|---|
+| FW-BDX-01 | 172.16.99.1 | pfSense principal |
+| SW-L3-BDX-01 | 172.16.99.2 | Switch L3 principal |
+| FW-BDX-02 | 172.16.99.5 | pfSense failover |
+| SW-L3-BDX-02 | 172.16.99.6 | Switch L3 failover |
+
+
 
 ---
 
