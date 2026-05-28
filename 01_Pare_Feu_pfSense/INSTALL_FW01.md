@@ -1,4 +1,4 @@
-# Installation et Configuration — Pare-feu pfSense (FW01)
+# Installation et Configuration Pare-feu pfSense (FW01)
 
 ## Sommaire
 
