@@ -1,4 +1,4 @@
-# Projet d'Infrastructure Réseau — EcoTech Solutions
+# Projet d'Infrastructure Réseau EcoTech Solutions
 
 ## Sommaire
 
