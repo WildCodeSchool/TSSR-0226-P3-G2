@@ -135,14 +135,14 @@ Concevoir et déployer une **infrastructure réseau centralisée, sécurisée et
 | `SRVLX01` | `10.0.10.20` | `10.0.10.10` | `10.0.10.254` |
 | `IPBX01` | `10.0.10.30` | `10.0.10.10` | `10.0.10.254` |
 
-#### Plage clients (DHCP) : `10.0.10.100` — `10.0.10.200`
+#### Plage clients (DHCP) : `10.0.10.100` - `10.0.10.200`
 
 | Machine | Adresse IP | DNS | Passerelle |
 |---|---|---|---|
 | `CLIWIN01` | DHCP | `10.0.10.10` | `10.0.10.254` |
 | `CLIWIN02` | DHCP | `10.0.10.10` | `10.0.10.254` |
 
-### 3.3. Zone DMZ — `10.0.20.0/24`
+### 3.3. Zone DMZ - `10.0.20.0/24`
 
 **Passerelle par défaut** : `10.0.20.254` (interface DMZ du pfSense)
 
