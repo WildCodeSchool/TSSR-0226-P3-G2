@@ -204,13 +204,13 @@ tssr.lan
 
 | Nom VM | Rôle / OS | Interfaces réseau | Paramètres IP | Identifiants |
 |---|---|---|---|---|
-| **FW01** | pfSense (Routage / Pare-feu) | Adaptateur 1 : WAN (Pont/Bridge) — Adaptateur 2 : LAN (Réseau interne) — Adaptateur 3 : DMZ (Réseau interne) | WAN : DHCP — LAN : `10.0.10.254/24` — DMZ : `10.0.20.254/24` | `admin` / `pfsense` |
-| **SRVWIN01** | Windows Server 2022 GUI — AD DS, DNS, DHCP | Adaptateur 1 : LAN (Réseau interne) | `10.0.10.10/24` — GW : `10.0.10.254` — DNS : `127.0.0.1` | `Administrator` / `Azerty1*` |
-| **SRVWIN04** | Windows Server 2022 GUI — WSUS | Adaptateur 1 : LAN (Réseau interne) | `10.0.10.12/24` — GW : `10.0.10.254` — DNS : `10.0.10.10` | `Administrator` / `Azerty1*` |
-| **SRVLX01** | Debian 12 CLI — GLPI + Messagerie | Adaptateur 1 : LAN (Réseau interne) | `10.0.10.20/24` — GW : `10.0.10.254` — DNS : `10.0.10.10` | `root` / `Azerty1*` |
-| **IPBX01** | FreePBX — VoIP | Adaptateur 1 : LAN (Réseau interne) | `10.0.10.30/24` — GW : `10.0.10.254` — DNS : `10.0.10.10` | `root` / `Azerty1*` |
-| **CLIWIN01** | Windows 10 Pro | Adaptateur 1 : LAN (Réseau interne) | DHCP (`10.0.10.100` — `10.0.10.200`) | `wilder` / `Azerty1*` |
-| **CLIWIN02** | Windows 11 Pro | Adaptateur 1 : LAN (Réseau interne) | DHCP (`10.0.10.100` — `10.0.10.200`) | `wilder` / `Azerty1*` |
+| **FW01** | pfSense (Routage / Pare-feu) | Adaptateur 1 : WAN (Pont/Bridge) Adaptateur 2 : LAN (Réseau interne) Adaptateur 3 : DMZ (Réseau interne) | WAN : DHCP LAN : `10.0.10.254/24` DMZ : `10.0.20.254/24` | `admin` / `pfsense` |
+| **SRVWIN01** | Windows Server 2022 GUI AD DS, DNS, DHCP | Adaptateur 1 : LAN (Réseau interne) | `10.0.10.10/24`  GW : `10.0.10.254` DNS : `127.0.0.1` | `Administrator` / `Azerty1*` |
+| **SRVWIN04** | Windows Server 2022 GUI WSUS | Adaptateur 1 : LAN (Réseau interne) | `10.0.10.12/24` GW : `10.0.10.254` DNS : `10.0.10.10` | `Administrator` / `Azerty1*` |
+| **SRVLX01** | Debian 12 CLI GLPI + Messagerie | Adaptateur 1 : LAN (Réseau interne) | `10.0.10.20/24`  GW : `10.0.10.254` DNS : `10.0.10.10` | `root` / `Azerty1*` |
+| **IPBX01** | FreePBX VoIP | Adaptateur 1 : LAN (Réseau interne) | `10.0.10.30/24`  GW : `10.0.10.254`  DNS : `10.0.10.10` | `root` / `Azerty1*` |
+| **CLIWIN01** | Windows 10 Pro | Adaptateur 1 : LAN (Réseau interne) | DHCP (`10.0.10.100`  `10.0.10.200`) | `wilder` / `Azerty1*` |
+| **CLIWIN02** | Windows 11 Pro | Adaptateur 1 : LAN (Réseau interne) | DHCP (`10.0.10.100`  `10.0.10.200`) | `wilder` / `Azerty1*` |
 
 ---
 
