@@ -71,8 +71,8 @@ Concevoir et déployer une **infrastructure réseau centralisée, sécurisée et
 | `FW01` | Pare-feu pfSense |
 | `SRVWIN01` | Contrôleur de domaine principal (AD DS, DNS, DHCP) |
 | `SRVWIN04` | Serveur de mises à jour (WSUS) |
-| `SRVLX01` | Serveur Linux — GLPI et Messagerie |
-| `IPBX01` | Serveur VoIP — FreePBX |
+| `SRVLX01` | Serveur Linux  GLPI et Messagerie |
+| `IPBX01` | Serveur VoIP  FreePBX |
 
 ### 2.3. Postes clients
 
@@ -122,7 +122,7 @@ Concevoir et déployer une **infrastructure réseau centralisée, sécurisée et
 | LAN | `10.0.10.0/24` | Réseau interne sécurisé |
 | DMZ | `10.0.20.0/24` | Zone exposée (serveurs web) |
 
-### 3.2. Zone LAN — `10.0.10.0/24`
+### 3.2. Zone LAN - `10.0.10.0/24`
 
 **Passerelle par défaut** : `10.0.10.254` (interface LAN du pfSense)
 
@@ -298,7 +298,7 @@ tssr.lan
 
 ### Difficultés rencontrées
 
-> *(À compléter au fur et à mesure du projet)*
+
 
 ### Solutions apportées
 
