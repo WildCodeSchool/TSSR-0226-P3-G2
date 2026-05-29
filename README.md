@@ -302,8 +302,8 @@ tssr.lan
 
 ### Solutions apportées
 
-> *(À compléter au fur et à mesure du projet)*
+
 
 ### Améliorations possibles
 
-> *(À compléter au fur et à mesure du projet)*
+
