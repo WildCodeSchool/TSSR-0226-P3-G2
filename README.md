@@ -266,7 +266,7 @@ tssr.lan
 
 | Brique technique | Charge estimée (JH) |
 |---|---|
-| Sprint 1 — Documentation, schéma, nomenclature | 1 JH |
+| Sprint 1 Documentation, schéma, nomenclature | 1 JH |
 | Pare-feu pfSense (FW01) | 0.5 JH |
 | AD DS + DNS + DHCP (SRVWIN01) | 1.5 JH |
 | Clients Windows (CLIWIN01, CLIWIN02) | 0.5 JH |
