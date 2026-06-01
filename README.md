@@ -217,7 +217,6 @@ tssr.lan
 ## 6. Schéma Réseau de l'Infrastructure
 
 > Le schéma réseau complet est disponible dans le dossier [`Ressources/`](./Ressources/).
-> Un schéma global (Draw.io) et un schéma réseau (Packet Tracer) seront ajoutés.
 
 ```
                         ┌──────────────┐
