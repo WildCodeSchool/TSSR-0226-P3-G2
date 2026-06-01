@@ -286,14 +286,14 @@ tssr.lan
 
 | Élément | Choix |
 |---|---|
-| Hyperviseur | Oracle VirtualBox |
+| Hyperviseur | VMWARE |
 | OS Serveur Windows | Windows Server 2022 |
 | OS Serveur Linux | Debian 12 CLI |
 | Pare-feu | pfSense |
 | GLPI | Dernière version stable |
 | VoIP | FreePBX |
 | Messagerie | iRedMail ou Zimbra |
-| Schéma réseau | Draw.io + Packet Tracer |
+| Schéma réseau | Packet Tracer |
 
 ### Difficultés rencontrées
 
