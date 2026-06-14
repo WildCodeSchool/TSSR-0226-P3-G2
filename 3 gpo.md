@@ -25,7 +25,7 @@ Cette GPO est liée à la racine du domaine, condition indispensable pour qu'ell
 <img width="1206" height="464" alt="image" src="https://github.com/user-attachments/assets/b9fa1b06-7390-492b-bc23-ed6c17a0e2cd" />
 
 
-Capture déjà fournie.
+
 
 ## GPO 2. GPO_DOMAINE_VERRCOMPTE
 
@@ -40,7 +40,6 @@ Chemin : Stratégies de comptes, Stratégie de verrouillage du compte.
 <img width="1223" height="451" alt="image" src="https://github.com/user-attachments/assets/eaab266f-3835-4c9e-a12c-53af987edb38" />
 
 
-Capture déjà fournie.
 
 ## GPO 3. GPO_BLOCAGEPANNEAUCONFIG
 
@@ -53,7 +52,6 @@ Chemin : Configuration utilisateur, Stratégies, Modèles d'administration, Pann
 <img width="1164" height="434" alt="image" src="https://github.com/user-attachments/assets/2447a185-577f-4044-a5df-b502bd06c0f4" />
 
 
-Capture déjà fournie.
 
 ## GPO 4. GPO_COMPUTERS_ADMINLOCAL
 
@@ -62,7 +60,6 @@ Chemin : Configuration ordinateur, Préférences, Paramètres du Panneau de conf
 <img width="1155" height="541" alt="image" src="https://github.com/user-attachments/assets/9298052e-22f7-4821-b448-700172ed0726" />
 
 
-Capture fournie présentant la console GPMC et la fenêtre Utilisateurs et groupes locaux. Pour un rendu optimal, une capture en plein écran de la fenêtre Administrateurs intégré faisant apparaître GG_Admins_Locaux serait préférable.
 
 ## GPO 5. GPO_COMPUTERS_POWERSHELLSECURITY
 
@@ -78,7 +75,6 @@ Chemin : Configuration ordinateur, Stratégies, Modèles d'administration, Compo
 <img width="1200" height="481" alt="image" src="https://github.com/user-attachments/assets/45f04b5e-f3af-4a23-a122-d37b19fc4e30" />
 
 
-Capture déjà fournie.
 
 ## GPO 6. GPO_COMPUTERS_RENOMMERADMIN
 
@@ -93,8 +89,6 @@ Chemin : Configuration ordinateur, Stratégies, Paramètres Windows, Paramètres
 <img width="1228" height="494" alt="image" src="https://github.com/user-attachments/assets/ee62bc5c-05f7-408a-8b8a-5c7d0b2a44f0" />
 
 
-Capture déjà fournie.
-
 ## GPO 7. GPO_COMPUTERS_BLOCAGEUSBSTORAGE
 
 Chemin : Configuration ordinateur, Stratégies, Modèles d'administration, Système, Accès au stockage amovible.
@@ -107,7 +101,6 @@ Chemin : Configuration ordinateur, Stratégies, Modèles d'administration, Syst�
 <img width="1121" height="589" alt="image" src="https://github.com/user-attachments/assets/6bf9283a-e87a-4c87-b3d4-38587ed45ff3" />
 
 
-Capture déjà fournie.
 
 ## Vérification
 
