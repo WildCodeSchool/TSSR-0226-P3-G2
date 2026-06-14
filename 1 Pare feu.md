@@ -2,7 +2,7 @@
 
 ## Contexte
 
-La machine c'est FW01, un pfSense CE 2.7.2 avec trois interfaces : WAN pour la sortie internet, LAN pour le reseau interne avec la console web sur 10.0.10.254, et DMZ. Le principe que j'applique c'est le Deny All : tout est bloque par defaut, et je laisse passer uniquement ce dont j'ai besoin.
+La machine est FW01, un pfSense CE 2.7.2 avec trois interfaces : WAN pour la sortie internet, LAN pour le reseau interne avec la console web sur 10.0.10.254, et DMZ. Le principe que j'applique c'est le Deny All : tout est bloque par defaut, et je laisse passer uniquement ce dont j'ai besoin.
 
 | Interface | Reseau | Role |
 |---|---|---|
