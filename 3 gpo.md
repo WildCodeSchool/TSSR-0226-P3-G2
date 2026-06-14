@@ -22,7 +22,8 @@ Chemin : Configuration ordinateur, Stratégies, Paramètres Windows, Paramètres
 
 Cette GPO est liée à la racine du domaine, condition indispensable pour qu'elle s'applique à l'ensemble des comptes du domaine.
 
-![GPO mot de passe](Ressources/01-gpo-mdp.png)
+<img width="1206" height="464" alt="image" src="https://github.com/user-attachments/assets/b9fa1b06-7390-492b-bc23-ed6c17a0e2cd" />
+
 
 Capture déjà fournie.
 
@@ -36,7 +37,8 @@ Chemin : Stratégies de comptes, Stratégie de verrouillage du compte.
 | Durée de verrouillage | 15 minutes |
 | Réinitialisation du compteur après | 15 minutes |
 
-![GPO verrouillage](Ressources/02-gpo-verrouillage.png)
+<img width="1223" height="451" alt="image" src="https://github.com/user-attachments/assets/eaab266f-3835-4c9e-a12c-53af987edb38" />
+
 
 Capture déjà fournie.
 
@@ -48,7 +50,8 @@ Chemin : Configuration utilisateur, Stratégies, Modèles d'administration, Pann
 |---|---|
 | Interdire l'accès au Panneau de configuration et aux paramètres du PC | Activé |
 
-![GPO panneau](Ressources/03-gpo-panneau.png)
+<img width="1164" height="434" alt="image" src="https://github.com/user-attachments/assets/2447a185-577f-4044-a5df-b502bd06c0f4" />
+
 
 Capture déjà fournie.
 
@@ -56,7 +59,8 @@ Capture déjà fournie.
 
 Chemin : Configuration ordinateur, Préférences, Paramètres du Panneau de configuration, Utilisateurs et groupes locaux. Je mets à jour le groupe Administrateurs intégré afin d'y ajouter GG_Admins_Locaux. Les membres de ce groupe deviennent ainsi administrateurs locaux des postes.
 
-![GPO admin local](Ressources/04-gpo-adminlocal.png)
+<img width="1155" height="541" alt="image" src="https://github.com/user-attachments/assets/9298052e-22f7-4821-b448-700172ed0726" />
+
 
 Capture fournie présentant la console GPMC et la fenêtre Utilisateurs et groupes locaux. Pour un rendu optimal, une capture en plein écran de la fenêtre Administrateurs intégré faisant apparaître GG_Admins_Locaux serait préférable.
 
@@ -71,7 +75,8 @@ Chemin : Configuration ordinateur, Stratégies, Modèles d'administration, Compo
 | Journalisation des blocs de scripts | Activé |
 | Transcription PowerShell | Activé |
 
-![GPO PowerShell](Ressources/05-gpo-powershell.png)
+<img width="1200" height="481" alt="image" src="https://github.com/user-attachments/assets/45f04b5e-f3af-4a23-a122-d37b19fc4e30" />
+
 
 Capture déjà fournie.
 
@@ -85,7 +90,8 @@ Chemin : Configuration ordinateur, Stratégies, Paramètres Windows, Paramètres
 | Renommer le compte Invité | Eco_InviteOff |
 | Statut du compte Invité | Désactivé |
 
-![GPO renommer](Ressources/06-gpo-renommer.png)
+<img width="1228" height="494" alt="image" src="https://github.com/user-attachments/assets/ee62bc5c-05f7-408a-8b8a-5c7d0b2a44f0" />
+
 
 Capture déjà fournie.
 
@@ -98,7 +104,8 @@ Chemin : Configuration ordinateur, Stratégies, Modèles d'administration, Syst�
 | Disques amovibles, refuser l'accès en lecture | Activé |
 | Disques amovibles, refuser l'accès en écriture | Activé |
 
-![GPO USB](Ressources/07-gpo-usb.png)
+<img width="1121" height="589" alt="image" src="https://github.com/user-attachments/assets/6bf9283a-e87a-4c87-b3d4-38587ed45ff3" />
+
 
 Capture déjà fournie.
 
@@ -109,5 +116,4 @@ gpupdate /force
 gpresult /r
 ```
 
-CAPTURE A INSERER : la sortie de gpresult /r faisant apparaître les GPO appliquées
-Fichier : Ressources/08-gpresult.png
+<img width="832" height="373" alt="image" src="https://github.com/user-attachments/assets/371723c1-4304-4c5e-a5bc-80df28dbd78f" />
