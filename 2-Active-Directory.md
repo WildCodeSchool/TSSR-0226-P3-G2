@@ -52,15 +52,5 @@ Le mot de passe initial est P@sswordInit2026!, avec changement imposé à la pre
 <img width="735" height="396" alt="image" src="https://github.com/user-attachments/assets/f4eaaaf2-82c8-45a6-b2c6-e6832def6ced" />
 
 
-CAPTURE A INSERER : l'onglet Organisation d'un utilisateur standard faisant apparaître son responsable
-Fichier : Ressources/04-manager.png
+<img width="933" height="307" alt="image" src="https://github.com/user-attachments/assets/bf2c16bf-a145-47be-842d-f4d8d3c71722" />
 
-## Vérification
-
-```
-Get-ADDomain
-dcdiag /v
-```
-
-CAPTURE A INSERER : la sortie de Get-ADDomain ou de dcdiag confirmant le bon état du domaine
-Fichier : Ressources/05-verif-ad.png
