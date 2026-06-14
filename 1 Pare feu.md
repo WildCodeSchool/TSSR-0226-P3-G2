@@ -18,7 +18,7 @@ J'ai decoche les deux options Block private networks et Block bogon networks. Mo
 
 
 
-Onglet WAN, aucune regle entrante et Reserved Networks decoches. Capture deja fournie.
+Onglet WAN, aucune regle entrante et Reserved Networks decoches.
 
 ## Regles LAN
 
@@ -37,7 +37,7 @@ Quand je desactive la regle Default allow LAN to any, c'est la regle implicite d
 <img width="711" height="410" alt="image" src="https://github.com/user-attachments/assets/063cf55f-1f00-45b6-aa34-cf99057eb6e0" />
 
 
-Regles LAN, la Default allow est desactivee. Capture deja fournie.
+Regles LAN, la Default allow est desactivee. 
 
 ### Tests que j'ai faits depuis SRVWIN01
 
@@ -61,8 +61,7 @@ Je mets le blocage DMZ vers LAN en premier, donc il est evalue avant les regles 
 <img width="706" height="281" alt="image" src="https://github.com/user-attachments/assets/e0e08bb9-80b8-44e9-b542-e8cd9a6e04db" />
 
 
-Regles DMZ, le blocage DMZ vers LAN est en tete. Capture deja fournie.
-
+Regles DMZ, le blocage DMZ vers LAN est en tete. 
 ## Resultat
 
 Le LAN est en Deny All actif, la DMZ est cloisonnee, le WAN bloque tout en entree par defaut. Objectif 1 fait.
