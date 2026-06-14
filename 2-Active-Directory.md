@@ -15,8 +15,7 @@ La machine SRVWIN01, sous Windows Server 2022, a été promue contrôleur de dom
 
 J'ai créé une unité d'organisation par département, soit sept OU à la racine du domaine : Communication, DSI, DRH, Developpement, Direction, Finance et Commercial.
 
-CAPTURE A INSERER : la console Utilisateurs et ordinateurs Active Directory présentant les sept OU sous ecotechsolutions.lan
-Fichier : Ressources/01-ou.png
+<img width="628" height="301" alt="image" src="https://github.com/user-attachments/assets/2051b810-9bbc-42f0-a9c5-20717d14aacf" />
 
 ## Groupes et modèle AGDLP
 
@@ -31,8 +30,8 @@ Mes groupes respectent le modèle AGDLP : les comptes sont placés dans un group
 
 L'imbrication réalisée est la suivante : le groupe GG_DSI est membre de GDL_RW_PartageDSI. Elle constitue la démonstration concrète du modèle AGDLP.
 
-CAPTURE A INSERER : l'onglet Membres de GDL_RW_PartageDSI faisant apparaître GG_DSI
-Fichier : Ressources/02-agdlp.png
+<img width="397" height="148" alt="image" src="https://github.com/user-attachments/assets/c3c6dbcf-e52e-493c-b11a-abc82b3591e4" />
+
 
 ## Utilisateurs
 
@@ -49,8 +48,9 @@ J'ai créé six utilisateurs : deux managers répartis sur deux départements di
 
 Le mot de passe initial est P@sswordInit2026!, avec changement imposé à la première connexion.
 
-CAPTURE A INSERER : les utilisateurs répartis dans leurs OU DSI et Communication
-Fichier : Ressources/03-users.png
+<img width="569" height="349" alt="image" src="https://github.com/user-attachments/assets/d4d8d8bf-d87a-4c12-9fa0-bb6aea077a20" />
+<img width="735" height="396" alt="image" src="https://github.com/user-attachments/assets/f4eaaaf2-82c8-45a6-b2c6-e6832def6ced" />
+
 
 CAPTURE A INSERER : l'onglet Organisation d'un utilisateur standard faisant apparaître son responsable
 Fichier : Ressources/04-manager.png
