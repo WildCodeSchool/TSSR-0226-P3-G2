@@ -2,7 +2,7 @@
 
 ## Contexte
 
-La machine est FW01, un pfSense CE 2.7.2 avec trois interfaces : WAN pour la sortie internet, LAN pour le reseau interne avec la console web sur 10.0.10.254, et DMZ. Le principe que j'applique c'est le Deny All : tout est bloque par defaut, et je laisse passer uniquement ce dont j'ai besoin.
+Le routeur et pare feu est FW01, un pfSense CE 2.7.2 avec trois interfaces : WAN pour la sortie internet, LAN pour le reseau interne avec la console web sur 10.0.10.254, et DMZ. Le principe que j'applique c'est le Deny All : tout est bloque par defaut, et je laisse passer uniquement ce dont j'ai besoin.
 
 | Interface | Reseau | Role |
 |---|---|---|
@@ -56,7 +56,7 @@ Regles LAN, la Default allow est desactivee. Capture deja fournie.
 | 3 | Pass | TCP | DMZ subnets | any | 80 | Sortie HTTP |
 | 4 | Pass | TCP | DMZ subnets | any | 443 | Sortie HTTPS |
 
-Je mets le blocage DMZ vers LAN en premier, donc il est evalue avant les regles de sortie. Comme ca si un serveur de la DMZ se fait pirater, il reste coince dans la DMZ.
+Je mets le blocage DMZ vers LAN en premier, donc il est evalue avant les regles de sortie. Comme ca si un serveur de la DMZ est compromis, il reste coince dans la DMZ.
 
 <img width="706" height="281" alt="image" src="https://github.com/user-attachments/assets/e0e08bb9-80b8-44e9-b542-e8cd9a6e04db" />
 
