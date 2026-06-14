@@ -14,7 +14,8 @@ Machine : **FW01**. Pare-feu pfSense CE 2.7.2, trois interfaces : WAN (sortie in
 
 Les options **Block private networks** et **Block bogon networks** sont décochées (le WAN reçoit une IP privée du NAT VMware ; les laisser actives bloquerait la sortie). Aucune règle entrante n'est définie : tout le trafic entrant est bloqué par défaut, ce qui correspond au Deny All natif.
 
-![WAN](Ressources/01-wan.png)
+<img width="694" height="207" alt="image" src="https://github.com/user-attachments/assets/abcf98c2-7606-4d3d-94f9-364539b93014" />
+
 _Onglet WAN : aucune règle entrante (Deny All natif) et Reserved Networks décochés. **Capture déjà fournie.**_
 
 ## Règles LAN
@@ -31,7 +32,8 @@ _Onglet WAN : aucune règle entrante (Deny All natif) et Reserved Networks déco
 
 La désactivation de « Default allow LAN to any » active la règle implicite de blocage : tout flux non autorisé est rejeté. C'est la mise en œuvre du Deny All.
 
-![Règles LAN](Ressources/02-regles-lan.png)
+<img width="717" height="401" alt="image" src="https://github.com/user-attachments/assets/b3bf0940-b7dc-487d-a088-c263e0e07c0d" />
+
 _Règles LAN, Default allow désactivée. **Capture déjà fournie.**_
 
 ### Tests de validation (depuis SRVWIN01)
@@ -53,7 +55,8 @@ _Règles LAN, Default allow désactivée. **Capture déjà fournie.**_
 
 La règle de blocage DMZ→LAN est en première position, donc évaluée avant les règles de sortie : un serveur DMZ compromis reste cloisonné.
 
-![Règles DMZ](Ressources/03-regles-dmz.png)
+<img width="718" height="288" alt="image" src="https://github.com/user-attachments/assets/942e82e3-d77e-4eba-b6f2-7c3355e1d72a" />
+
 _Règles DMZ, blocage DMZ→LAN en tête. **Capture déjà fournie.**_
 
 ## Vérification finale
