@@ -24,13 +24,13 @@ Onglet WAN, aucune regle entrante et Reserved Networks decoches.
 
 | Ordre | Action | Protocole | Source | Destination | Port | Role |
 |---|---|---|---|---|---|---|
-| auto | Pass | rien | tout | LAN Address | 80 | Anti-Lockout, acces a la console web |
+| auto | Pass | any | tout | LAN Address | 80 | Anti-Lockout, acces a la console web |
 | 1 | Pass | TCP | LAN subnets | any | 443 | Sortie HTTPS |
 | 2 | Pass | TCP | LAN subnets | any | 80 | Sortie HTTP |
 | 3 | Pass | ICMP | LAN subnets | any | rien | Ping et diagnostic |
 | 4 | Block | any | LAN subnets | DMZ subnets | rien | Le LAN ne parle pas a la DMZ |
 | 5 | Pass | TCP/UDP | LAN subnets | any | 53 | Resolution DNS |
-| bas | Pass | rien | LAN subnets | any | tout | Default allow, je l'ai desactivee |
+| bas | Pass | any | LAN subnets | any | tout | Default allow, je l'ai desactivee |
 
 Quand je desactive la regle Default allow LAN to any, c'est la regle implicite de blocage de pfSense qui prend le relais : tout ce qui n'est pas autorise est rejete. C'est ca mon Deny All.
 
