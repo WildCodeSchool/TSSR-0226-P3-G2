@@ -14,7 +14,9 @@ La machine c'est FW01, un pfSense CE 2.7.2 avec trois interfaces : WAN pour la s
 
 J'ai decoche les deux options Block private networks et Block bogon networks. Mon WAN recoit une IP privee du NAT VMware, donc si je laisse ces options actives pfSense bloque ma sortie internet. Je ne mets aucune regle entrante, donc tout le trafic qui rentre est bloque par defaut. C'est deja du Deny All natif.
 
-![WAN](Ressources/01-wan.png)
+<img width="694" height="201" alt="image" src="https://github.com/user-attachments/assets/69bae836-632f-401e-84a7-005c50695865" />
+
+
 
 Onglet WAN, aucune regle entrante et Reserved Networks decoches. Capture deja fournie.
 
@@ -32,7 +34,8 @@ Onglet WAN, aucune regle entrante et Reserved Networks decoches. Capture deja fo
 
 Quand je desactive la regle Default allow LAN to any, c'est la regle implicite de blocage de pfSense qui prend le relais : tout ce qui n'est pas autorise est rejete. C'est ca mon Deny All.
 
-![Regles LAN](Ressources/02-regles-lan.png)
+<img width="711" height="410" alt="image" src="https://github.com/user-attachments/assets/063cf55f-1f00-45b6-aa34-cf99057eb6e0" />
+
 
 Regles LAN, la Default allow est desactivee. Capture deja fournie.
 
@@ -55,7 +58,8 @@ Regles LAN, la Default allow est desactivee. Capture deja fournie.
 
 Je mets le blocage DMZ vers LAN en premier, donc il est evalue avant les regles de sortie. Comme ca si un serveur de la DMZ se fait pirater, il reste coince dans la DMZ.
 
-![Regles DMZ](Ressources/03-regles-dmz.png)
+<img width="706" height="281" alt="image" src="https://github.com/user-attachments/assets/e0e08bb9-80b8-44e9-b542-e8cd9a6e04db" />
+
 
 Regles DMZ, le blocage DMZ vers LAN est en tete. Capture deja fournie.
 
