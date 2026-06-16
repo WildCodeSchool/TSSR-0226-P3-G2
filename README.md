@@ -61,7 +61,7 @@ Concevoir et déployer une **infrastructure réseau centralisée, sécurisée et
 
 | Élément | Valeur |
 |---|---|
-| Nom de domaine AD | `tssr.lan` |
+| Nom de domaine AD | `ecotechsolutions.lan` |
 | Nom FQDN du DC principal | `SRVWIN01.tssr.lan` |
 
 ### 2.2. Serveurs et équipements réseau
