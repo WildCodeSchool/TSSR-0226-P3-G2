@@ -154,10 +154,10 @@ Concevoir et déployer une **infrastructure réseau centralisée, sécurisée et
 
 ## 4. Architecture de l'Annuaire Active Directory (OU)
 
-Structure hiérarchique sous la racine du domaine `tssr.lan` :
+Structure hiérarchique sous la racine du domaine `ecotechsolutions.lan` :
 
 ```
-tssr.lan
+echotechsolutions.lan
 └── OU_EcoTech
     ├── OU_Utilisateurs
     │   ├── OU_Direction
