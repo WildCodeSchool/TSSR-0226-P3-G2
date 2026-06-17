@@ -79,7 +79,7 @@ Concevoir et déployer une **infrastructure réseau centralisée, sécurisée et
 | Nom | OS |
 |---|---|
 | `CLIWIN01` | Windows 10 Pro |
-| `CLIWIN02` | Windows 11 Pro |
+| `CLIWIN02` | Windows 10 Pro |
 
 ### 2.4. Utilisateurs Active Directory
 
