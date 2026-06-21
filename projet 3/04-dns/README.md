@@ -1,6 +1,5 @@
 # 04 - DNS - SRVWIN01
 
-## Objectif de la brique
 
 Le serveur DNS est installé sur `SRVWIN01`. Il sert à résoudre les noms du domaine interne `ecotechsolutions.lan` et à transférer les demandes externes vers un redirecteur.
 
