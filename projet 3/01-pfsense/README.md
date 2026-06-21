@@ -1,6 +1,6 @@
 # 01 - pfSense - FW01
 
-## Objectif de la brique
+
 
 `FW01` est le point d'entrée réseau du lab. Il remplace la box Internet dans la logique de l'entreprise et sert à la fois de routeur et de pare-feu. Son rôle est de séparer les flux entre Internet, le réseau interne et la DMZ.
 
