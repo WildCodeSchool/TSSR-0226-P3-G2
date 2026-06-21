@@ -1,6 +1,6 @@
 # 05 - DHCP - SRVWIN01
 
-## Objectif de la brique
+
 
 Le DHCP permet d'attribuer automatiquement une configuration IP aux clients du LAN. Dans ce projet, le rôle DHCP est porté par `SRVWIN01`. Le réseau concerné est le LAN `10.0.10.0/24`.
 
