@@ -62,7 +62,7 @@ Cette capture montre que `Lucas Bernard` a `Pierre Durand` comme responsable. Ce
 
 ## Résultat obtenu
 
-La brique Active Directory permet maintenant :
+Active Directory permet maintenant :
 
 - d'avoir un domaine interne `ecotechsolutions.lan` ;
 - de centraliser les comptes utilisateurs ;
