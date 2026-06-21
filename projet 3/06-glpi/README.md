@@ -1,6 +1,5 @@
 # 06 - GLPI - SRVLX01
 
-## Objectif de la brique
 
 GLPI est mis en place pour gérer le parc informatique et suivre les incidents. Dans le projet, il complète l'infrastructure Windows en apportant une interface web pour le support informatique.
 
