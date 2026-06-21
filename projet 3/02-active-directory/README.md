@@ -1,6 +1,5 @@
 # 02 - Active Directory - SRVWIN01
 
-## Objectif de la brique
 
 Le serveur `SRVWIN01` porte le domaine Active Directory `ecotechsolutions.lan`. L'objectif est de remplacer une gestion locale des comptes par une gestion centralisée : utilisateurs, groupes, droits et organisation par services.
 
