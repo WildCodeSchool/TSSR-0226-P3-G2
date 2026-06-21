@@ -64,4 +64,4 @@ Le DNS assure deux fonctions :
 - résoudre les noms internes du domaine `ecotechsolutions.lan` ;
 - transférer les noms externes vers le redirecteur.
 
-Cette brique est directement liée à Active Directory. Les clients du domaine doivent utiliser `10.0.10.10` comme DNS pour trouver correctement le contrôleur de domaine.
+est directement liée à Active Directory. Les clients du domaine doivent utiliser `10.0.10.10` comme DNS pour trouver correctement le contrôleur de domaine.
