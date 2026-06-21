@@ -46,4 +46,4 @@ Le point le plus important à retenir est que le LAN et la DMZ ne sont pas dans 
 
 ## Points de contrôle
 
-Pour vérifier cette brique, je contrôle principalement l'adresse des interfaces, l'ordre des règles et la présence d'une règle de blocage entre la DMZ et le LAN. Les tests réseau se font ensuite depuis les serveurs et clients avec des commandes comme `ping`, `ipconfig` ou `nslookup`, selon la brique testée.
+Pour vérifier, je contrôle principalement l'adresse des interfaces, l'ordre des règles et la présence d'une règle de blocage entre la DMZ et le LAN. Les tests réseau se font ensuite depuis les serveurs et clients avec des commandes comme `ping`, `ipconfig` ou `nslookup`.
