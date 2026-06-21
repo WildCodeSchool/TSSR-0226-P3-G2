@@ -97,4 +97,4 @@ Cette dernière capture confirme l'état final du ticket. Elle sert de preuve co
 
 GLPI est fonctionnel sur le LAN. Il permet de gérer un début de parc informatique, de créer des utilisateurs, de classer les incidents et de suivre un ticket jusqu'à sa résolution.
 
-La brique répond donc aux deux besoins principaux : gestion de parc et ticketing web.
+
